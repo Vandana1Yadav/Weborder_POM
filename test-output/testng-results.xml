@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T09:01:54 GMT-04:00" name="Page Object test example" finished-at="2022-10-03T09:02:54 GMT-04:00" duration-ms="60130">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T09:01:54 GMT-04:00" name="test-1" finished-at="2022-10-03T09:02:54 GMT-04:00" duration-ms="60130">
+      <class name="com.webOrder.test.ListOfProducts">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae]" started-at="2022-10-03T09:02:29 GMT-04:00" name="initializeTestBaseSetup" finished-at="2022-10-03T09:02:36 GMT-04:00" duration-ms="7153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae]" started-at="2022-10-03T09:02:36 GMT-04:00" name="setUp" finished-at="2022-10-03T09:02:36 GMT-04:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllProduct()[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae]" started-at="2022-10-03T09:02:36 GMT-04:00" name="verifyAllProduct" finished-at="2022-10-03T09:02:39 GMT-04:00" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae]" started-at="2022-10-03T09:02:39 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:39 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllProduct status=SUCCESS method=ListOfProducts.verifyAllProduct()[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrder.test.ListOfProducts@7d4f9aae]" started-at="2022-10-03T09:02:39 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:40 GMT-04:00" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webOrder.test.ListOfProducts -->
+      <class name="com.webOrder.test.WebOrder_EditOrder">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:01:54 GMT-04:00" name="SetUp" finished-at="2022-10-03T09:01:54 GMT-04:00" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:01:54 GMT-04:00" name="initializeTestBaseSetup" finished-at="2022-10-03T09:02:04 GMT-04:00" duration-ms="9734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:02:04 GMT-04:00" name="setUp" finished-at="2022-10-03T09:02:04 GMT-04:00" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editOrderCustomerName()[pri:1, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:02:04 GMT-04:00" name="editOrderCustomerName" description="Edit Order Customer Name" finished-at="2022-10-03T09:02:15 GMT-04:00" duration-ms="11071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrderCustomerName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:02:15 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:15 GMT-04:00" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editOrderCustomerName status=SUCCESS method=WebOrder_EditOrder.editOrderCustomerName()[pri:1, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrder.test.WebOrder_EditOrder@4b8ee4de]" started-at="2022-10-03T09:02:15 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:18 GMT-04:00" duration-ms="2814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webOrder.test.WebOrder_EditOrder -->
+      <class name="com.webOrder.test.Weborder_create">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b]" started-at="2022-10-03T09:02:40 GMT-04:00" name="initializeTestBaseSetup" finished-at="2022-10-03T09:02:47 GMT-04:00" duration-ms="6947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b]" started-at="2022-10-03T09:02:47 GMT-04:00" name="setUp" finished-at="2022-10-03T09:02:47 GMT-04:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b]" started-at="2022-10-03T09:02:47 GMT-04:00" name="createOrder" data-provider="login" finished-at="2022-10-03T09:02:52 GMT-04:00" duration-ms="4192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ScreenSaver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[farid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100 john]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[brooklyn]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[new york]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10012]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12345437236]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[12/23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b]" started-at="2022-10-03T09:02:52 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:52 GMT-04:00" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createOrder status=SUCCESS method=Weborder_create.createOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrder.test.Weborder_create@54e1c68b]" started-at="2022-10-03T09:02:52 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:54 GMT-04:00" duration-ms="2204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webOrder.test.Weborder_create -->
+      <class name="com.webOrder.test.WebOrder_List_of_Orders">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0]" started-at="2022-10-03T09:02:18 GMT-04:00" name="initializeTestBaseSetup" finished-at="2022-10-03T09:02:25 GMT-04:00" duration-ms="7109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?11%2fWebOrders%2fDefault.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0]" started-at="2022-10-03T09:02:25 GMT-04:00" name="setUp" finished-at="2022-10-03T09:02:25 GMT-04:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_orders()[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0]" started-at="2022-10-03T09:02:25 GMT-04:00" name="verify_orders" finished-at="2022-10-03T09:02:27 GMT-04:00" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_orders -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0]" started-at="2022-10-03T09:02:27 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:27 GMT-04:00" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_orders status=SUCCESS method=WebOrder_List_of_Orders.verify_orders()[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webOrder.test.WebOrder_List_of_Orders@b9b00e0]" started-at="2022-10-03T09:02:27 GMT-04:00" name="tearDown" finished-at="2022-10-03T09:02:29 GMT-04:00" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webOrder.test.WebOrder_List_of_Orders -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
